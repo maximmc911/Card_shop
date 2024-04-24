@@ -15,13 +15,6 @@ const props: Prop | any = defineProps({
 const pushFavorite = ref(getItemLocalStorage(`favorite`, props.props));
 const pushBasket = ref(getItemLocalStorage(`basket`, props.props));
 
-//cycle & condition
-
-if (!props?.props?.image.url.includes(`../../src/components/image`)) {
-
-    props.props.image.url = `../../src/components/image${props?.props?.image.url}`;
-}
-
 // functions
 
 const HandlePushFavorite = (): void => {
