@@ -21,7 +21,6 @@ store.GetData();
 
 <template>
    <div>
-   <h1>Example</h1>
       <div v-if="openLoader">
          <Loader />
       </div>

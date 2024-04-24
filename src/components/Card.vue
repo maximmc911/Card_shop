@@ -17,9 +17,9 @@ const pushBasket = ref(getItemLocalStorage(`basket`, props.props));
 
 //cycle & condition
 
-if (!props?.props?.image.url.includes(`../../src/components/image`)) {
+if (!props?.props?.image.url.includes(`./image`)) {
 
-    props.props.image.url = `../../src/components/image${props?.props?.image.url}`;
+    props.props.image.url = `./image${props?.props?.image.url}`;
 }
 
 // functions
