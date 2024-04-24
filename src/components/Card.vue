@@ -116,6 +116,7 @@ const HandlePushBasket = (): void => {
 
 .image img {
     width: 200px;
+    height: 200px;
 }
 
 .name_card {
